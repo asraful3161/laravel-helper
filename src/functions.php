@@ -96,11 +96,11 @@ function label($get_string){
 }
 
 function css($args=[]){
-	return \App\Helpers\Cdns::css($args);
+	return Helpers\Cdns::css($args);
 }
 
 function js($args=[]){
-	return \App\Helpers\Cdns::js($args);
+	return Helpers\Cdns::js($args);
 }
 
 function unpkg($pkg=NULL){
