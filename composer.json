@@ -2,7 +2,6 @@
     "name": "asraful3161/laravel-helper",
     "description": "Some laravel helper functions",
     "type": "library",
-    "license": "none",
     "authors": [
         {
             "name": "Md. Asraful Islam",
