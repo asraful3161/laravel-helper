@@ -1,0 +1,23 @@
+{
+    "name": "asraful3161/laravel-helper",
+    "description": "Some laravel helper functions",
+    "type": "library",
+    "license": "none",
+    "authors": [
+        {
+            "name": "Md. Asraful Islam",
+            "email": "asraful3161@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+        "laravel/framework": "5.5.*"
+
+    },"autoload": {
+
+    	"psr-4": {"Helpers\\": "src/classes"},
+    	"files": ["src/functions.php"]
+        
+	}
+}
