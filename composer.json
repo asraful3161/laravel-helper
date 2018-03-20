@@ -9,11 +9,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-
-        "laravel/framework": "5.5.*"
-
-    },"autoload": {
+    "autoload": {
 
     	"psr-4": {"Helpers\\": "src/classes"},
     	"files": ["src/functions.php"]
